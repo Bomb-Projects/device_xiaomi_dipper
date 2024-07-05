@@ -56,7 +56,6 @@ persist.vendor.ims.disableUserAgent=0
 ro.face.sense_service.camera_id=5
 
 # Media
-debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
