@@ -5,3 +5,9 @@ soong_namespace {
         "hardware/xiaomi",
     ],
 }
+
+install_symlink {
+    name: "gps.conf_symlink",
+    installed_location: "etc/gps.conf",
+    symlink_target: "/vendor/etc/gps.conf",
+}
