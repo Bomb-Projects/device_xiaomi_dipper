@@ -317,6 +317,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
